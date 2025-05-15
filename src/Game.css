@@ -1,0 +1,39 @@
+.progress-container {
+    width: 100%;
+    background-color: #e0e0e0;
+    height: 8px;
+    border-radius: 4px;
+    overflow: hidden;
+    margin-bottom: 12px;
+  }
+  
+  .progress-bar {
+    height: 100%;
+    background-color: #007bff;
+    transition: width 0.5s linear;
+  }
+  
+  .game-header {
+    font-size: 1.2rem;
+    margin-bottom: 12px;
+  }
+  
+  .game-grid {
+    display: grid;
+    gap: 8px;
+    margin-top: 16px;
+  }
+  
+  .card-image {
+    width: 100%;
+    aspect-ratio: 1;
+    cursor: pointer;
+    border: 2px solid #ddd;
+    border-radius: 4px;
+    transition: transform 0.2s;
+  }
+  
+  .card-image:hover {
+    transform: scale(1.05);
+  }
+  
