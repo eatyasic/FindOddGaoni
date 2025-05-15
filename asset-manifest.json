@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/FindOddGaoni/static/css/main.3922ad37.css",
+    "main.js": "/FindOddGaoni/static/js/main.7e160382.js",
+    "index.html": "/FindOddGaoni/index.html",
+    "main.3922ad37.css.map": "/FindOddGaoni/static/css/main.3922ad37.css.map",
+    "main.7e160382.js.map": "/FindOddGaoni/static/js/main.7e160382.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3922ad37.css",
+    "static/js/main.7e160382.js"
+  ]
+}
