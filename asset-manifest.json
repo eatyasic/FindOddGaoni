@@ -1,13 +1,15 @@
 {
   "files": {
     "main.css": "/FindOddGaoni/static/css/main.3922ad37.css",
-    "main.js": "/FindOddGaoni/static/js/main.7e160382.js",
+    "main.js": "/FindOddGaoni/static/js/main.34457138.js",
+    "static/media/odd.png": "/FindOddGaoni/static/media/odd.809f2e10e55df5c07a08.png",
+    "static/media/normal.png": "/FindOddGaoni/static/media/normal.bf3a9c626b3429849602.png",
     "index.html": "/FindOddGaoni/index.html",
     "main.3922ad37.css.map": "/FindOddGaoni/static/css/main.3922ad37.css.map",
-    "main.7e160382.js.map": "/FindOddGaoni/static/js/main.7e160382.js.map"
+    "main.34457138.js.map": "/FindOddGaoni/static/js/main.34457138.js.map"
   },
   "entrypoints": [
     "static/css/main.3922ad37.css",
-    "static/js/main.7e160382.js"
+    "static/js/main.34457138.js"
   ]
 }
