@@ -8,28 +8,33 @@
     text-align: center;
   }
   
-  .main-screen h1 {
-    font-size: 2rem;
-    margin-bottom: 16px;
-  }
-  
-  .main-screen p {
-    font-size: 1.1rem;
-    margin-bottom: 24px;
-  }
-  
-  .start-button {
-    padding: 12px 24px;
-    font-size: 1rem;
-    border: none;
-    background-color: #28a745;
-    color: #fff;
-    border-radius: 4px;
-    cursor: pointer;
-    transition: background-color 0.2s;
-  }
-  
-  .start-button:hover {
-    background-color: #218838;
-  }
-  
+.main-screen h1 {
+  font-size: 2rem;
+  margin-bottom: 16px;
+}
+
+.main-screen p {
+  font-size: 1.1rem;
+  margin-bottom: 24px;
+}
+
+.start-button {
+  padding: 12px 24px;
+  font-size: 1rem;
+  border: none;
+  background-color: #28a745;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.start-button:hover {
+  background-color: #218838;
+}
+
+.angry-gaoni {
+  width: 100px;
+  height: 100px;
+  margin-top: 16px;
+}

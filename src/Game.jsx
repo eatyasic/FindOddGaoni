@@ -4,7 +4,7 @@ import './Game.css';
 import normalImage from './images/normal.png';
 import oddImage from './images/odd.png';
 
-const timeLimits = [15, 12, 9, 6, 3];
+const timeLimits = [24, 18, 10, 4, 1];
 
 const Game = ({ onGameOver = () => {} }) => {
   const [stage, setStage] = useState(1);
@@ -36,7 +36,7 @@ const Game = ({ onGameOver = () => {} }) => {
         }
         return prev - 1;
       });
-    }, 1000);
+    }, 500);
     return () => clearInterval(timer);
   }, [stage, modalOpen]);
 
@@ -75,7 +75,7 @@ const Game = ({ onGameOver = () => {} }) => {
         />
       </div>
       <div className="game-header">
-        스테이지 {stage} / 5 | 남은 시간: {timeLeft}s
+        스테이지 {stage} / 5 | 남은 시간: {timeLeft/2}s
       </div>
       <div
         className="game-grid"
